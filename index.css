@@ -7,6 +7,10 @@
     color: white;
 }
 
+.title {
+    font-variant: small-caps;
+}
+
 body {
     font-family: var(--main-font-family), 'Times New Roman', Times, serif;
     background-color:#2F2840;
