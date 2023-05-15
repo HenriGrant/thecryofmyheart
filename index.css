@@ -1,0 +1,13 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Open+Sans&display=swap');
+
+
+:root {
+    --main-text-color: white;
+    --main-font-family: "Open Sans";
+    color: white;
+}
+
+body {
+    font-family: var(--main-font-family), 'Times New Roman', Times, serif;
+    background-color:#2F2840;
+}
