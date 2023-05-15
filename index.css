@@ -1,14 +1,32 @@
 @import url('https://api.fonts.coollabs.io/css2?family=Open+Sans&display=swap');
 
-
+/* Define main color variables, default font, etc*/
 :root {
     --main-text-color: white;
     --main-font-family: "Open Sans";
     color: white;
 }
 
-.title {
+.sidebar {
+    width: 100px;
+}
+
+.sidebar-link {
+    display: block;
+    color: white;
+    text-decoration: none;
     font-variant: small-caps;
+}
+
+/* The title on the page, The Cry of My Heart */
+.title {
+    font-size: xx-large;
+    text-decoration: none;
+    margin: 10px 0 10px 10px;
+}
+
+a:visited {
+    color: white;
 }
 
 body {
