@@ -8,10 +8,14 @@
 }
 
 .sidebar {
-    width: 100px;
+    width: 85px;
 }
 
 .sidebar-link {
+    text-align: center;
+    margin: 0 0 5px 0;
+    border: 5px solid black;
+    font-size: large;
     display: block;
     color: white;
     text-decoration: none;
