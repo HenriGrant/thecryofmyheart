@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+}
+.main-content {
+    margin: 10px 150px 10px 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+}
