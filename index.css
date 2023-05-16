@@ -5,28 +5,29 @@
     --main-text-color: white;
     --main-font-family: "Open Sans";
     color: white;
+    --main-margin-left: 10px;
 }
+
 
 .sidebar {
-    width: 85px;
-}
-
-.sidebar-link {
-    text-align: center;
-    margin: 0 0 5px 0;
-    border: 5px solid black;
-    font-size: large;
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-variant: small-caps;
+    margin: 10px 10px 10px var(--main-margin-left);
 }
 
 /* The title on the page, The Cry of My Heart */
 .title {
     font-size: xx-large;
     text-decoration: none;
-    margin: 10px 0 10px 10px;
+}
+
+.buttons {
+    display: inline;
+}
+
+.sidebar-link {
+    margin: 0 0 0 var(--main-margin-left);
+    display: inline;
+    float: right;
+
 }
 
 a:visited {
@@ -36,4 +37,27 @@ a:visited {
 body {
     font-family: var(--main-font-family), 'Times New Roman', Times, serif;
     background-color:#2F2840;
+}
+
+footer {
+    margin: 0 0 0 var(--main-margin-left);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .title {
+        margin: 0 10px 0 var(--main-margin-left);
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    .sidebar {
+        text-align: center;
+    }
+    
+    .sidebar-link {
+        float: none;
+    }
 }
